@@ -130,7 +130,7 @@ public class FUtil
 
     public static void adminAction(String adminName, String action, boolean isRed)
     {
-        FUtil.bcastMsg(adminName + " - " + action, (isRed ? ChatColor.RED : ChatColor.AQUA));
+        FUtil.bcastMsg(adminName + " - " + action, (isRed ? ChatColor.GOLD : ChatColor.GOLD));
     }
 
     public static String formatLocation(Location location)

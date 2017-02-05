@@ -68,7 +68,7 @@ public class Command_cage extends FreedomCommand
             }
             else
             {
-                if ("darth".equalsIgnoreCase(args[1]))
+                if ("salt".equalsIgnoreCase(args[1]))
                 {
                     outerMaterial = Material.SKULL;
                 }
@@ -102,7 +102,7 @@ public class Command_cage extends FreedomCommand
         }
         else
         {
-            FUtil.adminAction(sender.getName(), "Caging " + player.getName() + " in PURE_DARTH", true);
+            FUtil.adminAction(sender.getName(), "Caging " + player.getName() + " in PURE_SALTSHAKER53", true);
         }
 
         return true;

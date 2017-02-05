@@ -43,7 +43,7 @@ public class Command_loginmessage extends FreedomCommand
         i.setItem(1, animeFan);
         ItemStack someDamnBot = newLoginMessage(new ItemStack(Material.NAME_TAG), "Some damn bot", ChatColor.GREEN, "&aprobably some damn bot", playerSender);
         i.setItem(2, someDamnBot);
-        ItemStack UnraveledMCAddict = newLoginMessage(new ItemStack(Material.NAME_TAG), "UnraveledMC Addict", ChatColor.GOLD, "an &7&lUnraveled&8&lMC &e&lAddict", playerSender);
+        ItemStack UnraveledMCAddict = newLoginMessage(new ItemStack(Material.NAME_TAG), "RedCrafted Addict", ChatColor.GOLD, "a &c&lRed&8&lCrafted &e&lAddict", playerSender);
         i.setItem(3, UnraveledMCAddict);
         ItemStack RWBYFan = newLoginMessage(new ItemStack(Material.NAME_TAG), "RWBY Fan", ChatColor.LIGHT_PURPLE, "a &4R&fW&8B&6Y &dFan", playerSender);
         i.setItem(4, RWBYFan);

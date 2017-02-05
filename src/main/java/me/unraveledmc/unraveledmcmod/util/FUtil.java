@@ -37,11 +37,8 @@ public class FUtil
     //
     public static final String SAVED_FLAGS_FILENAME = "savedflags.dat";
     // See https://github.com/TotalFreedom/License - None of the listed names may be removed.
-    // Leave the DEVELOPERS List alone, those are the TotalFreedom Developers.
-    // If a new DEVELOPER is added, list them under the UMCDEVS List.
-    // Ruby_Rose is CreeperSeth's cracked alt account
     public static final List<String> DEVELOPERS = Arrays.asList("Madgeek1450", "Prozza", "Wild1145", "WickedGamingUK", "aggelosQQ");
-    public static final List<String> UMCDEVS = Arrays.asList("CreeperSeth", "Ruby_Rose", "OxLemonxO", "RobinGall2910");
+    public static final List<String> RCDEVS = Arrays.asList("SaltShaker53");
     public static String DATE_STORAGE_FORMAT = "EEE, d MMM yyyy HH:mm:ss Z";
     public static final Map<String, ChatColor> CHAT_COLOR_NAMES = new HashMap<>();
     public static final List<ChatColor> CHAT_COLOR_POOL = Arrays.asList(
@@ -72,7 +69,7 @@ public class FUtil
 
     public static boolean isExecutive(String name)
     {
-        if (!ConfigEntry.SERVER_EXECS.getList().contains(name) && !ConfigEntry.SERVER_OWNERS.getList().contains(name) && !UMCDEVS.contains(name) && !ConfigEntry.SERVER_COOWNERS.getList().contains(name))
+        if (!ConfigEntry.SERVER_EXECS.getList().contains(name) && !ConfigEntry.SERVER_OWNERS.getList().contains(name) && !RCDEVS.contains(name) && !ConfigEntry.SERVER_COOWNERS.getList().contains(name))
         {
             return false;
         }

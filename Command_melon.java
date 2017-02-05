@@ -17,7 +17,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 public class Command_melon extends FreedomCommand
 {
 
-    public static final String CAKE_LYRICS = "Grown straight from the sunny side of the USA.";
+    public static final String MELON_LYRICS = "Grown straight from the sunny side of the USA.";
     private final Random random = new Random();
 
     @Override
@@ -25,7 +25,7 @@ public class Command_melon extends FreedomCommand
     {
         final StringBuilder output = new StringBuilder();
 
-        final String[] words = CAKE_LYRICS.split(" ");
+        final String[] words = MELON_LYRICS.split(" ");
         for (final String word : words)
         {
             output.append(ChatColor.COLOR_CHAR).append(Integer.toHexString(1 + random.nextInt(14))).append(word).append(" ");

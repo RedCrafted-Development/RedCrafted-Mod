@@ -7,11 +7,11 @@ public enum Title implements Displayable
 {
 
     PRESIDENT("a", "President of the United States", ChatColor.DARK_BLUE, "President"),
-    MASTER_BUILDER("a", "Master Builder", ChatColor.DARK_AQUA, "Master-Builder"),
+    MASTER_BUILDER("a", "Master Builder", ChatColor.DARK_BLUE, "Master-Builder"),
     DEVELOPER("a", "TotalFreedom Developer", ChatColor.DARK_PURPLE, "TF-Dev"),
     UMCDEV("an", "UnraveledMC Developer", ChatColor.DARK_PURPLE, "UMC-Dev"),
-    EXEC("an", "Executive Admin", ChatColor.DARK_BLUE, "Executive"),
-    COOWNER("a", "Co-Owner", ChatColor.DARK_RED, "Co-Owner"),
+    EXEC("an", "Executive Admin", ChatColor.GOLD, "Executive"),
+    COOWNER("a", "Co-Owner", ChatColor.BLUE, "Co-Owner"),
     OWNER("an", "Owner", ChatColor.BLUE, "Owner");
 
     @Getter

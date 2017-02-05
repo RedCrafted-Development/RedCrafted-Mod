@@ -6,7 +6,7 @@ import org.bukkit.ChatColor;
 public enum Title implements Displayable
 {
 
-    PRESIDENT("a", "President of the United States", ChatColor.DARK_BLUE, "President"),
+    PRESIDENT("the", "President of RedCrafted", ChatColor.DARK_BLUE, "President"),
     MASTER_BUILDER("a", "Master Builder", ChatColor.DARK_BLUE, "Master-Builder"),
     DEVELOPER("a", "TotalFreedom Developer", ChatColor.DARK_PURPLE, "TF-Dev"),
     RCDEV("an", "RedCrafted Developer", ChatColor.DARK_PURPLE, "RC-Dev"),

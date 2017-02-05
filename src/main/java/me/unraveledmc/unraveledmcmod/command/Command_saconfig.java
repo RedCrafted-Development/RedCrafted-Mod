@@ -194,7 +194,7 @@ public class Command_saconfig extends FreedomCommand
                 return true;
             }
 
-            case "remove":
+            case "delete":
             {
                 if (args.length < 2)
                 {

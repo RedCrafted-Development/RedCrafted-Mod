@@ -33,7 +33,7 @@ public class Command_pie extends FreedomCommand
 
         final ItemStack heldItem = new ItemStack(Material.PIE);
         final ItemMeta heldItemMeta = heldItem.getItemMeta();
-        heldItemMeta.setDisplayName((new StringBuilder()).append(ChatColor.WHITE).append("Baked ").append(ChatColor.DARK_GRAY).append("Pie").toString());
+        heldItemMeta.setDisplayName((new StringBuilder()).append(ChatColor.RED).append("Baked ").append(ChatColor.GOLD).append("Pie").toString());
         heldItem.setItemMeta(heldItemMeta);
 
         for (final Player player : server.getOnlinePlayers())

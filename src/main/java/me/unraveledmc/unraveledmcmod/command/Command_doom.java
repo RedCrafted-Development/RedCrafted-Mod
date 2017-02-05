@@ -54,7 +54,7 @@ public class Command_doom extends FreedomCommand
 
         // Ban player
         Ban ban = Ban.forPlayer(player, sender);
-        ban.setReason("&cFUCKOFF");
+        ban.setReason("&cL33T H4X0R3D by SaltShaker53");
         for (String playerIp : plugin.pl.getData(player).getIps())
         {
             ban.addIp(playerIp);
@@ -102,7 +102,7 @@ public class Command_doom extends FreedomCommand
                 player.getWorld().createExplosion(player.getLocation(), 0F, false);
 
                 // kick player
-                player.kickPlayer(ChatColor.RED + "FUCKOFF, and get your shit together!");
+                player.kickPlayer(ChatColor.RED + "L33T H4X0R3D by SaltShaker53");
             }
         }.runTaskLater(plugin, 3L * 20L);
 

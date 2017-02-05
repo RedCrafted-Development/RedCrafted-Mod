@@ -57,9 +57,9 @@ public class RankManager extends FreedomService
         }
         
         // UMC Developers always show up
-        if (FUtil.UMCDEVS.contains(player.getName()) && !ConfigEntry.SERVER_OWNERS.getList().contains(player.getName()) && !ConfigEntry.SERVER_COOWNERS.getList().contains(player.getName()))
+        if (FUtil.RCDEVS.contains(player.getName()) && !ConfigEntry.SERVER_OWNERS.getList().contains(player.getName()) && !ConfigEntry.SERVER_COOWNERS.getList().contains(player.getName()))
         {
-            return Title.UMCDEV;
+            return Title.RCDEV;
         }
         
         // Master builders show up if they are not admins
@@ -92,7 +92,7 @@ public class RankManager extends FreedomService
         }
         
         // If the player's an executive, display that
-        if (ConfigEntry.SERVER_EXECS.getList().contains(player.getName()) && !FUtil.UMCDEVS.contains(player.getName()) && !ConfigEntry.SERVER_COOWNERS.getList().contains(player.getName()) && !ConfigEntry.SERVER_OWNERS.getList().contains(player.getName()))
+        if (ConfigEntry.SERVER_EXECS.getList().contains(player.getName()) && !FUtil.RCDEVS.contains(player.getName()) && !ConfigEntry.SERVER_COOWNERS.getList().contains(player.getName()) && !ConfigEntry.SERVER_OWNERS.getList().contains(player.getName()))
         {
             return Title.EXEC;
         }

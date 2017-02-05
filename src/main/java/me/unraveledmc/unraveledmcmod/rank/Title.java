@@ -9,7 +9,7 @@ public enum Title implements Displayable
     PRESIDENT("the", "President of RedCrafted", ChatColor.DARK_BLUE, "President"),
     MASTER_BUILDER("a", "Master Builder", ChatColor.DARK_BLUE, "Master-Builder"),
     DEVELOPER("a", "TotalFreedom Developer", ChatColor.DARK_PURPLE, "TF-Dev"),
-    RCDEV("an", "RedCrafted Developer", ChatColor.DARK_PURPLE, "RC-Dev"),
+    RCDEV("a", "RedCrafted Developer", ChatColor.DARK_PURPLE, "RC-Dev"),
     EXEC("an", "Executive Admin", ChatColor.GOLD, "Executive"),
     COOWNER("a", "Co-Owner", ChatColor.BLUE, "Co-Owner"),
     OWNER("an", "Owner", ChatColor.BLUE, "Owner");

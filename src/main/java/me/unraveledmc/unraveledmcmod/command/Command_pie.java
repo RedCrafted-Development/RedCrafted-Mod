@@ -31,7 +31,7 @@ public class Command_pie extends FreedomCommand
             output.append(ChatColor.COLOR_CHAR).append(Integer.toHexString(1 + random.nextInt(14))).append(word).append(" ");
         }
 
-        final ItemStack heldItem = new ItemStack(Material.PIE);
+        final ItemStack heldItem = new ItemStack(Material.PUMPKIN_PIE);
         final ItemMeta heldItemMeta = heldItem.getItemMeta();
         heldItemMeta.setDisplayName((new StringBuilder()).append(ChatColor.RED).append("Baked ").append(ChatColor.GOLD).append("Pie").toString());
         heldItem.setItemMeta(heldItemMeta);

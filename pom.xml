@@ -3,17 +3,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.unraveledmc</groupId>
-    <artifactId>UnraveledMCMod</artifactId>
+    <artifactId>RedCraftedMod</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>UnraveledMCMod</name>
+    <name>RedCraftedMod</name>
     <description>Server modification for the UnraveledMC server</description>
-    <url>https://github.com/UnraveledMC/UnraveledMCMod</url>
+    <url>https://github.com/RedCrafted-Development/RedCrafted-Mod</url>
 
     <organization>
-        <name>UnraveledMC</name>
-        <url>http://unraveledmc.com</url>
+        <name>RedCrafted-Development</name>
+        <url>http://redcrafted.com</url>
     </organization>
 	
     <scm>

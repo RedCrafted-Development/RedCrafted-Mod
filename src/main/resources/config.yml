@@ -49,7 +49,7 @@ motd:
   line_one: '&c&lRed&8&lCrafted &l- &8&lFree &lOP'
   
   # What shows up on line 2
-  line_two: '&c&oAn intutive OP server for Minecraft'  
+  line_two: '&c&oAn intuatitve OP server for Minecraft'  
 
 # The discord bot self verification system
 verification:

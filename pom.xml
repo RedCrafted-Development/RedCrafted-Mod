@@ -8,7 +8,7 @@
     <packaging>jar</packaging>
 
     <name>RedCraftedMod</name>
-    <description>Server modification for the UnraveledMC server</description>
+    <description>Server modification for RedCrafted</description>
     <url>https://github.com/RedCrafted-Development/RedCrafted-Mod</url>
 
     <organization>
